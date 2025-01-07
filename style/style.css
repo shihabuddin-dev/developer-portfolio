@@ -36,16 +36,21 @@ body{
 .section-description{
     font-size: 18px;
     color: rgb(117, 117, 117);
+    
 }
 .secondary-bg{
     background-color: rgb(255, 248, 243);
 
+}
+.text-center{
+    text-align: center;
 }
 /* Header Section */
 .header{
     background-image: url(../images/hero-left.png),url(../images/hero_bg.png);
     background-repeat: no-repeat;
     background-position:  left, bottom right;
+    border-radius: 5px;
 }
 
 /* Nav style */
@@ -127,12 +132,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* About Style */
 .about{
     border-radius: 10px;
     text-align: center;
     padding: 130px  150px;
-    margin-top: 130px;
+    
 }
 .about-items{
     display: flex;
@@ -141,4 +150,21 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+
+/* What I do Section Style */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.sec-des{
+    padding: 0 50px;
+    margin-bottom: 50px;
 }
