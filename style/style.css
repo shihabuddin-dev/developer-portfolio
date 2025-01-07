@@ -28,12 +28,24 @@ body{
     border-radius: 5px;
     background: rgb(253, 110, 10);
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+.section-description{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+
+}
 /* Header Section */
 .header{
     background-image: url(../images/hero-left.png),url(../images/hero_bg.png);
     background-repeat: no-repeat;
     background-position:  left, bottom right;
-    background-color: rgb(255, 248, 243);;
 }
 
 /* Nav style */
@@ -87,19 +99,46 @@ nav li a {
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 50px 35px 0px 200px;
 }
 .banner-content{
     max-width: 580px;
+    
 }
 .banner-greetings{
 color: rgb(71, 71, 71);
 font-size: 45px;
-font-weight: 600;
+margin-bottom: 0;
+
 
 }
 .banner-title{
     color: rgb(24, 24, 24);
     font-size: 85px;
-font-weight: 700;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-profile{
+    width: 500px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Style */
+.about{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px  150px;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-description{
+    font-weight: 600;
 }
